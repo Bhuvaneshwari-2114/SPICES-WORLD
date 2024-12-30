@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>spices</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="logo ws.png" height="40px"width="40px">
+
+        <nav class="navbar">
+            <a href="#index">Home</a>
+            <a href="#fast">Fast moving</a>
+            <a href="#Offer">Offers</a>
+            <a href="#menu">Menu</a>
+            <a href="#reviews">Review</a>
+            <a href="#contact"> Contract us</a>
+        </nav>
+    </header>
+    <div class="home" id="index">
+        <div class="contant">
+            <h3>SPICES&SEEDS</h3>
+            <span>_________________</span>
+
+            <p>FLAT 10% OFFERS</p>
+            <span>_________________</span>
+
+        </div>
+    </div>
+    <!--------best products--------------->
+    <section class="fastmoving" id="fast">
+        <div class="container">
+            <div class="move">
+                <h2>Fast Moving </h2>
+            </div>
+            <div class="flexbox">
+                <div class="box">
+                    <div class="flip-box">
+                        <div class="front">
+                            <h2>safforn</h2>
+                            <img src="img/safforn.webp" height="300px" width="300px">
+                        </div>
+                        <div class="back">
+                            <h2>Saffron is most recommonded product and around 2000+ people can purchased. </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="flip-box">
+                        <div class="front">
+                            <h2>Mustard</h2>
+                            <img src="img/mutard.webp" height="300px" width="300px">
+                        </div>
+                        <div class="back">
+                            <h2>Mustard is always demanding spices of ours.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="flip-box">
+                        <div class="front">
+                            <h2>Coriander</h2>
+                            <img src="img/coriander.jpg" height="300px" width="300px">
+                        </div>
+                        <div class="back">
+                            <h2>Most of people re-orderd Corianders. </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="flip-box">
+                        <div class="front">
+                            <h2>Cinnamon</h2>
+                            <img src="img/Cinnamon.webp" height="300px" width="300px">
+                        </div>
+                        <div class="back">
+                            <h2>Cinnamon is 2nd most purchased spices of ours.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="flip-box">
+                        <div class="front">
+                            <h2>cloves</h2>
+                            <img src="img/cloves.webp" height="300px" width="300px">
+                        </div>
+                        <div class="back">
+                            <h2>Blown cloves are comparatively chip and best spices. </h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!------------offers----------------------->
+    <section id="Offer">
+        <div>
+            <div class="Offers">
+                <h2>OFFERS</h2>
+            </div>
+        </div>
+       
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/Indian_spices.jpg" height="600px" width="100%">
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/off2.jpeg" height="600px" width="100%">
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/off1.jpg" height="600px" width="100%">
+                
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    
+    </section>
+    <!--------------Products-------------------->
+    <section id="menu">
+        <div class="view">
+            <div class="move">
+                <h2>Our Products</h2>
+            </div>
+
+            <div class="product-grid">
+                <div class="product">
+                    <img src="img/mutard.webp">
+                    <p>mustard</p>
+                    <p>RS:40</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+                <div class="product" >
+                    <img src="img/coriander.jpg">
+                    <p>Coriander</p>
+                    <p>RS:45</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product" >
+                    <img src="img/cloves.webp">
+                    <p>cloves</p>
+                    <p>RS:50</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+                <div class="product" >
+                    <img src="img/fenugreek.webp">
+                    <p>Fenugreek</p>
+                    <p>RS:50</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+                <div class="product" >
+                    <img src="img/leaf.webp">
+                    <p>Tej patta</p>
+                    <p>RS:50</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product" >
+                    <img src="img/safforn.webp">
+                    <p>safforn</p>
+                    <p>RS:80</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product" >
+                    <img src="img/sabut.webp">
+                    <p>sabut</p>
+                    <p>RS:60</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product" >
+                    <img src="img/fennel.webp">
+                    <p>fennel</p>
+                    <p>RS:50</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product">
+                    <img src="img/asafo.webp">
+                    <p>Asafoetida powder</p>
+                    <p>RS:45</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product">
+                    <img src="img/cumin.webp">
+                    <p>cumin</p>
+                    <p>RS:55</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product">
+                    <img src="img/cardomon.webp">
+                    <p>cardomon</p>
+                    <p>RS:60</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+
+                <div class="product">
+                    <img src="img/peper.jpeg">
+                    <p> Pepper</p>
+                    <p>RS:40</p>
+                    <button onclick=Addcart()> ADD TO CART </button>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <!-----------review----------->
+    <section id="reviews">
+        <div class="review">
+            <div class="move">
+                <h2>Review</h2>
+            </div>
+            <div class="slide">
+                <div class="client">
+                    <div class="person">
+                        <img src="img/review1.jpeg" class="profile">
+                    </div>
+                    <div class="card-contant">
+                        <h2 class="name">JOHN</h2>
+                        <P class="descripe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quas? Modi
+                            obcaecati in veniam sed
+                            repellendus ratione inventore ipsum itaque id sequi? Odio eaque consectetur facere soluta
+                            distinctio rem vel?</P>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="person">
+                        <img src="img/review2.jpeg" class="profile">
+                    </div>
+
+                    <div class="card-contant">
+                        <h2 class="name">Naina</h2>
+                        <P class="descripe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quas? Modi
+                            obcaecati in veniam sed
+                            repellendus ratione inventore ipsum itaque id sequi? Odio eaque consectetur facere soluta
+                            distinctio rem vel?</P>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </div>
+
+                <div class="client">
+                    <div class="person">
+                        <img src="img/rev 3.jpg" class="profile">
+                    </div>
+                    <div class="card-contant">
+                        <h2 class="name">Harry</h2>
+                        <P class="descripe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quas? Modi
+                            obcaecati in veniam sed
+                            repellendus ratione inventore ipsum itaque id sequi? Odio eaque consectetur facere soluta
+                            distinctio rem vel?</P>
+
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+
+
+                    </div>
+                </div>
+
+                <div class="client">
+                    <div class="person">
+                        <img src="img/re4.jpeg" class="profile">
+                    </div>
+                    <div class="card-contant">
+                        <h2 class="name">Juliy</h2>
+                        <P class="descripe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quas? Modi
+                            obcaecati in veniam sed
+                            repellendus ratione inventore ipsum itaque id sequi? Odio eaque consectetur facere soluta
+                            distinctio rem vel?</P>
+
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------contact-------------------->
+    <div id="contact">
+        <div class="main">
+          <!-- Contact Section -->
+          <div class="container1">
+            <center>
+              <h1 class="ch">CONTACT</h1>
+            </center>
+            <div class="cpara">
+              <p>NAME: <span>SPICES WORLD</span></p>
+              <p>MOBILE NUMBER: <span>123-456-7890</span></p>
+              <p>E-MAIL: <span>spicesworld@gmail.com</span></p>
+              <p>MANAGER: <span>Mrs. Vanitha</span></p>
+            </div>
+          </div>
+    
+          <!-- Follow Us Section -->
+          <div class="container2">
+            <h1 class="fus">FOLLOW US</h1>
+            <center>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </center>
+          </div>
+    
+          <!-- Address Section -->
+          <div class="container3">
+            <center>
+              <h1>ADDRESS</h1>
+              <div class="adpara">
+                <p>2nd Street,</p>
+                <p>Gandhipuram,</p>
+                <p>Coimbatore - 641043</p>
+              </div>
+            </center>
+        </div>
+  
+        <!-- Products Section -->
+        <div class="container4">
+          <center>
+            <h1>OUR BEST PRODUCT</h1>
+            <div class="mepara">
+              <p>safforn</p>
+              <p>Mustard</p>
+              <p>Coriander</p>
+              <p>Cinnamon</p>
+              <p>cloves</p>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+</body>
+</html>  
+    
